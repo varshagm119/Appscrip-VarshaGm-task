@@ -1,0 +1,22 @@
+.mainContainer {
+    padding: 0 96px 0 96px;
+  }
+  
+  .mainContent {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 32px 0;
+  }
+  
+  @media (max-width: 1200px) {
+    .mainContainer {
+      padding: 0 40px;
+    }
+    .mainContent {
+      gap: 8px;
+      margin: 16px 0;
+    }
+  }
+  

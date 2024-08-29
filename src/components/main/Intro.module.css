@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    width: 90%;
+    margin: 72px auto;
+  }
+  
+  .heading {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 72px;
+    color: #252020;
+  }
+  .text {
+    margin: 0 8%;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  
+  @media (max-width: 1200px) {
+    .heading {
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+    }
+  
+    .text {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+    }
+  }
+  

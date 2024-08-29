@@ -1,0 +1,35 @@
+.greyStrip {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 274px 8px 274px;
+    height: 30px;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .contentContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .content {
+    color: #eb4c6b;
+    font-size: 12px;
+    line-height: 14.4px;
+    letter-spacing: 1px;
+  }
+  
+  @media (max-width: 1200px) {
+    .greyStrip {
+      padding: 8px 100px;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .greyStrip {
+      padding: 8px 8px;
+    }
+  }
+  
